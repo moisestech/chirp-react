@@ -1,5 +1,5 @@
 import * as React from 'react'
-import PropTypes as 'prop-types'
+import PropTypes from 'prop-types'
 
 export default function Sidebar () {
   return (
