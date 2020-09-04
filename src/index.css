@@ -1,0 +1,162 @@
+body {
+  --twitter-color: #50b7f5;
+  --twitter-background: #e6ecf0;
+}
+
+/* APP */
+
+.app {
+
+}
+
+/* FEED */
+
+.feed {
+
+}
+
+.feed::-webkit-scrollbar {
+
+}
+
+.feed {
+
+}
+
+.feed-header {
+
+}
+
+.feed-header > h2 {
+
+}
+
+/* POST */
+
+.post {
+
+}
+
+.post-body {
+
+}
+
+.post-body > img {
+
+}
+
+.post-footer {
+
+}
+
+.post-header-description {
+
+}
+
+.post-header-text > h3 {
+
+}
+
+.post-badge {
+
+}
+
+.post-header-special {
+
+}
+
+.post-avatar {
+
+}
+
+
+/* SIDEBAR */
+
+.sidebar {
+
+}
+
+.sidebar-twitter-icon {
+
+}
+
+.sidebar-tweet {
+
+}
+
+
+/* SIDEBAR OPTION */
+
+.sidebar-option {
+
+}
+
+.sidebar-option:hover {
+
+}
+
+.sidebar-option > .MuiSvgIcon-root {
+
+}
+
+.sidebar-option > h2 {
+
+}
+
+.sidebar-option--active {
+
+}
+
+
+/* TWEET BOX */
+
+.tweet-box {
+
+}
+
+.tweet-box > form {
+
+}
+
+.tweet-box-input {
+
+}
+
+.tweet-box-input > input {
+
+}
+
+.tweet-box-image-input {
+
+}
+
+.tweet-box-tweet-button {
+
+}
+
+
+/* WIDGETS */
+
+.widgets {
+
+}
+
+.widgets-input {
+
+}
+
+.widgets-input > input {
+
+}
+
+.widgets-search-icon {
+
+}
+
+.widgets-container {
+
+}
+
+.widgets-container > h2 {
+
+}
