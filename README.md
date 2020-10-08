@@ -37,7 +37,15 @@ Chirp - public social messaging application built in ReactJS
 
 ## Features
 
-Coming Soon
+- Login / Signup
+- New Tweet
+- Like
+- Retweet
+- Comment
+- View Profile
+- Edit Profile
+- Search by users, tags, people
+- Dark theme / Light theme
 
 ## Preview
 
@@ -48,3 +56,4 @@ Coming Soon
 - Add Redux Toolkit
 - Add Mobile View
 - Create Authentication
+- Add Favicon
