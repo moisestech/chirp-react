@@ -6,157 +6,230 @@ body {
 /* APP */
 
 .app {
-
+  display: flex;
+  height: 100vh;
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 10px;
 }
 
 /* FEED */
 
 .feed {
-
+  flex: 0.4;
+  border-right: 1px solid var(--twitter-background);
+  min-width: fit-content;
+  overflow-y: scroll;
 }
 
-.feed::-webkit-scrollbar {
-
+.feed::-webkitscrollbar {
+  display: none;
 }
 
 .feed {
-
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
 .feed-header {
-
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 100;
+  border: 1px solid var(--twitter-background);
+  padding: 15px 20px;
 }
 
 .feed-header > h2 {
-
+  font-size: 20px;
+  font-weight: 800;
 }
 
 /* POST */
 
 .post {
-
+  display: flex;
+  align-items: flex-start;
+  border-bottom: 1px solid var(--twitter-background);
+  padding-bottom: 10px;
 }
 
 .post-body {
-
+  flex: 1;
+  padding: 10px;
 }
 
 .post-body > img {
-
+  border-radius: 20px;
 }
 
 .post-footer {
-
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
 }
 
 .post-header-description {
-
+  margin-bottom: 10px;
+  font-size: 15px;
 }
 
 .post-header-text > h3 {
-
+  font-size: 15px;
+  margin-bottom: 5px;
 }
 
 .post-badge {
-
+  font-size: 14px !important;
+  color: var(--twitter-color);
 }
 
 .post-header-special {
-
+  font-weight: 600;
+  font-size: 12px;
+  color: gray;
 }
 
 .post-avatar {
-
+  padding: 20px;
 }
-
 
 /* SIDEBAR */
 
 .sidebar {
-
+  border-right: 1px solid var(--twitter-background);
+  flex: 0.3;
+  /* min-width: 250px; */
+  margin-top: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
 .sidebar-twitter-icon {
-
+  color: var(--twitter-color) !important;
+  font-size: 30px !important;
+  margin-left: 20px;
+  margin-bottom: 20px;
 }
 
 .sidebar-tweet {
-
+  background-color: var(--twitter-color) !important;
+  border: none !important;
+  color: white !important;
+  font-weight: 900 !important;
+  text-transform: inherit !important;
+  border-radius: 30px !important;
+  height: 50px !important;
+  margin-top: 20px !important;
 }
-
 
 /* SIDEBAR OPTION */
 
 .sidebar-option {
-
+  display: flex;
+  align-items: center;
+  cursor: pointer;
 }
 
 .sidebar-option:hover {
-
+  background-color: #e8f5fe;
+  border-radius: 30px;
+  color: var(--twitter-color);
+  transition: color 100ms ease-out;
 }
 
 .sidebar-option > .MuiSvgIcon-root {
-
+  padding: 20px;
 }
 
 .sidebar-option > h2 {
-
+  font-weight: 800;
+  font-size: 20px;
+  margin-right: 20px;
 }
 
 .sidebar-option--active {
-
+  color: var(--twitter-color);
 }
-
 
 /* TWEET BOX */
 
 .tweet-box {
-
+  padding-bottom: 10px;
+  border-bottom: 8px solid var(--twitter-background);
+  padding-right: 10px;
 }
 
 .tweet-box > form {
-
+  display: flex;
+  flex-direction: column;
 }
 
 .tweet-box-input {
-
+  padding: 20px;
+  display: flex;
 }
 
 .tweet-box-input > input {
-
-}
-
-.tweet-box-image-input {
-
+  flex: 1;
+  margin-left: 20px;
+  font-size: 20px;
+  border: none;
 }
 
 .tweet-box-tweet-button {
-
+  background-color: var(--twitter-color) !important;
+  border: none !important;
+  color: white !important;
+  font-weight: 900 !important;
+  text-transform: inherit !important;
+  border-radius: 30px !important;
+  width: 80px;
+  height: 40px !important;
+  margin-top: 20px !important;
+  margin-left: auto !important;
 }
 
+.tweet-box-image-input {
+  border: none;
+  padding: 10px;
+}
 
 /* WIDGETS */
 
 .widgets {
-
+  flex: 0.3;
 }
 
 .widgets-input {
-
+  display: flex;
+  align-items: center;
+  background-color: var(--twitter-background);
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-left: 20px;
 }
 
 .widgets-input > input {
-
+  border: none;
+  background-color: var(--twitter-background);
 }
 
 .widgets-search-icon {
-
+  color: gray;
 }
 
-.widgets-container {
-
+.widgets-widget-container {
+  margin-top: 15px;
+  margin-left: 20px;
+  padding: 20px;
+  background-color: #f5f8fa;
+  border-radius: 20px;
 }
 
-.widgets-container > h2 {
-
+.widgets-widget-container > h2 {
+  font-size: 18px;
+  font-weight: 800;
 }
