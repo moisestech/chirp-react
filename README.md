@@ -1,10 +1,12 @@
 # chirp
+
 Chirp - public social messaging application built in ReactJS
 
-![Chirp logo](https://github.com/moisestech/chirp-react/blob/master/public/Chirp-logo.png)
+![Chirp logo](https://raw.githubusercontent.com/moisestech/chirp-react/master/public/Chirp_logo.png)
 
 ## Application tree
-``` bash
+
+```bash
 ├── README.md
 ├── package.json
 ├── public
@@ -34,8 +36,15 @@ Chirp - public social messaging application built in ReactJS
 ```
 
 ## Features
-Coming Soon
 
+Coming Soon
 
 ## Preview
+
 Coming Soon
+
+## ToDos
+
+- Add Redux Toolkit
+- Add Mobile View
+- Create Authentication
