@@ -32,7 +32,7 @@ export default function Sidebar() {
 
       {/* Button -> Tweets */}
       <Button variant="outlined" className="sidebar-tweet" fullWidth>
-        Tweet
+        Chirp
       </Button>
     </div>
   );
