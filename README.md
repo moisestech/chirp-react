@@ -4,7 +4,7 @@
 
 <img src="https://raw.githubusercontent.com/moisestech/chirp-react/master/public/assets/chirp_logo.png" width="150px"/>
 
-Chirp - public social messaging application built in ReactJS.
+**Chirp - public social messaging application.**
 
 ## ⚙ Features
 
