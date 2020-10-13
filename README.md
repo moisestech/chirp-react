@@ -1,10 +1,34 @@
-# chirp
+🔗 [react-hooks-arcade.netlify.com](https://react-hooks-arcade.netlify.app)
 
-Chirp - public social messaging application built in ReactJS
+# Chirp
 
-![Chirp logo](https://raw.githubusercontent.com/moisestech/chirp-react/master/public/Chirp_logo.png)
+<img src="https://raw.githubusercontent.com/moisestech/polli/main/public/assets/polli_logo.png" width="150px"/>
 
-## Application tree
+Chirp - public social messaging application built in ReactJS.
+
+## ⚙ Features
+
+- React 17
+- React Router v6
+- React Hooks
+- ES8
+- PropTypes
+- Light/Dark Theme
+
+## 👁️‍🗨️ Project Preview
+
+Coming Soon!
+
+## 🗺 URL Tree
+
+```bash
+├── /                   #Home
+├── /chirps             #Chirps
+├── /chirps/:chirpId    #Chirp:ID
+└── /*                  #404
+```
+
+## 🌿 App tree
 
 ```bash
 ├── README.md
@@ -35,8 +59,9 @@ Chirp - public social messaging application built in ReactJS
 └── webpack.config.js
 ```
 
-## Features
+## ⛰️ Roadmap
 
+- More robust example of this app.
 - Login / Signup
 - New Tweet
 - Like
@@ -45,15 +70,11 @@ Chirp - public social messaging application built in ReactJS
 - View Profile
 - Edit Profile
 - Search by users, tags, people
-- Dark theme / Light theme
 
-## Preview
-
-Coming Soon
-
-## ToDos
+## 📝 Todos
 
 - Add Redux Toolkit
 - Add Mobile View
 - Create Authentication
 - Add Favicon
+- Add All Components
