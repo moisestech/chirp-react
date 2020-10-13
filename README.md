@@ -1,4 +1,5 @@
-🔗 [react-hooks-arcade.netlify.com](https://react-hooks-arcade.netlify.app)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4d6a91d9-6b7c-4559-b962-0122bde5d050/deploy-status)](https://app.netlify.com/sites/chirp-messaging/deploys)
+🔗 [chirp-messaging.netlify.com](https://chirp-messaging.netlify.app)
 
 # Chirp
 
