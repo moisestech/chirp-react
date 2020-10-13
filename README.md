@@ -2,7 +2,7 @@
 
 # Chirp
 
-<img src="https://raw.githubusercontent.com/moisestech/polli/main/public/assets/polli_logo.png" width="150px"/>
+<img src="https://raw.githubusercontent.com/moisestech/chirp-react/master/public/assets/chirp_logo.png" width="150px"/>
 
 Chirp - public social messaging application built in ReactJS.
 
