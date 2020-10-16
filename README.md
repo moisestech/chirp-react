@@ -26,6 +26,7 @@ Coming Soon!
 ├── /                   #Home
 ├── /chirps             #Chirps
 ├── /chirps/:chirpId    #Chirp:ID
+├── /addChirp           #Add Chirp
 └── /*                  #404
 ```
 
