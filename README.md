@@ -10,7 +10,7 @@
 ## ⚙ Features
 
 - React 17
-- React Router v6
+- React Router v5
 - React Hooks
 - ES8
 - PropTypes
