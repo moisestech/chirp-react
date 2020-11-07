@@ -6,6 +6,7 @@ import { showLoading, hideLoading } from "react-redux-loading-bar";
 
 const AUTHED_ID = "moisessanabria";
 
+// ACTION HANDLER
 export function handleInitialData() {
   return (dispatch) => {
     dispatch(showLoading());
